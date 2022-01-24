@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?&family=Monda&family=Roboto+Slab&family=Roboto:wght@400&family=Varela+Round&family=Vollkorn&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.RPS-bg-container{
+    height: 100vh;
+    background-size: cover;
+}
+
+.RPS-main-heading{
+    font-size: 28px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: coral;
+}
+
+.card-container{
+    border-radius: 15px;
+    border: 2px solid #000;
+    padding: 0;
+}
+
+.comp-choice{
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+.your-choice{
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+.score-display{
+    font-size: 20px;
+
+    margin-bottom: 4px;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    margin: 0 15px;
+    height: 40px;
+    width: 125px;
+    border-radius: 10px;
+    border-width: 0;
+    color: #fff;
+}
+
+#reset-button{
+    padding: 10px 5px;
+    margin: 18px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+#Result{
+    padding: 10px 5px;
+    margin: 18px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 0;
+    color: #fff;
+    background-color: #000;
+} 
+
+.rock-btn{
+    background-color: #FF4438;
+}
+.scissors-btn{
+    background-color: #0285FA;
+}
+.paper-btn{
+    background-color: #03B365;
+}
